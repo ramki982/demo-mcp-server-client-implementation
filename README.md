@@ -1,6 +1,6 @@
 # Example MCP Server + Client Implementation
 
-I [wrote an article](https://maximilian-schwarzmueller.com/articles/whats-the-mcp-model-context-protocol-hype-all-about) and [created a video]() about MCPs and why they're useful in my opinion.
+I [wrote an article](https://maximilian-schwarzmueller.com/articles/whats-the-mcp-model-context-protocol-hype-all-about) and [created a video](https://youtu.be/sVC4DL2secQ) about MCPs and why they're useful in my opinion.
 
 This demo project contains a backend service / API that's consumed by a MCP server which exposes it in a standardized way to MCP clients - like the example MCP client (a very simple AI chatbot) that's also part of this project.
 
@@ -13,6 +13,8 @@ Add a `.env` file inside the `client` folder (next to the `package.json` file th
 ```
 OPENAI_API_KEY=<your-open-ai-key>
 ```
+
+In each folder (`service`, `server`, `client`) run `npm install` to install required dependencies.
 
 ## Running Service, MCP Server & MCP Client
 
