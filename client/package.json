@@ -1,0 +1,16 @@
+{
+  "name": "mcp-client",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --env-file=.env client.ts"
+  },
+  "keywords": [],
+  "author": "Maximilian Schwarzmüller",
+  "license": "MIT",
+  "description": "Demo MCP client consuming the demo MCP server",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "openai": "^4.87.3"
+  }
+}
