@@ -170,7 +170,7 @@ async function main() {
   try {
     const transport = new StdioClientTransport({
       command: 'node',
-      args: ['../server/dist/server.js'],
+      args: ['../server/server.ts'],
     });
 
     const client = new Client(
